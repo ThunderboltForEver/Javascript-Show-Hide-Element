@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.container {
+  font-size: 30px;
+  line-height: 2;  
+}
+div.all {
+  box-shadow: 0px 0px 1px 1px grey;
+  padding: 20px;
+}
+button{
+  padding: 10px;
+  font-weight: bold;
+  color: crimson;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: cornflowerblue;
+}
